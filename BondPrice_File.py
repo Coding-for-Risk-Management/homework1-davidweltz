@@ -15,5 +15,5 @@ def getBondPrice(y, face, couponRate, m, ppy=1):
         pvcfsum += pvcf
     
     bondprice = pvcfsum + pv*face
-    print(bondprice, "hello")
-    return(x)
+    #print(bondprice, "hello")
+    return(bondprice)
